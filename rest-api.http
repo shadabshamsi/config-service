@@ -1,0 +1,12 @@
+GET http://localhost:8888/catalog-service/default
+
+<> 2024-04-07T221748.200.json
+#Accept: application/json
+
+###
+
+GET http://localhost:8888/catalog-service/prod
+
+###
+
+GET http://localhost:8888/catalog-service
