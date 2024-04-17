@@ -22,7 +22,7 @@ spec:
             memory: "1280Mi"
             cpu: "500m"
         ports:
-        - containerPort: 9001
+        - containerPort: 8888
         env:
           - name: BPL_JVM_THREAD_COUNT
             value: "50"

@@ -20,4 +20,9 @@ spring:
           clone-on-start: true
           force-pull: true
           # basedir:
-          
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
